@@ -45,7 +45,7 @@ app.route("/field").get(function(req,res){
         if (err) {
             res.send("Something is wrong")
         } else {
-            res.redirect("/field")
+            res.redirect("/")
         }
     })
 })
@@ -53,3 +53,5 @@ app.route("/field").get(function(req,res){
 app.listen(port,function(){
     console.log("Server is running")
 })
+
+// /Users/sangsakawira/Desktop/Projects/Arena-O/futsal-api/database

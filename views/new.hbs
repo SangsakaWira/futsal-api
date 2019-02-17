@@ -32,13 +32,19 @@
     <!-- Ending Navigation -->
     <div class="contact-clean">
         <form method="post" action="/field">
-            <h2 class="text-center">Contact us</h2>
-            <div class="form-group"><input class="form-control" type="text" name="tempat" placeholder="Nama Tempat"></div>
-            <div class="form-group"><input class="form-control" type="text" name="kota" placeholder="Lokasi"></div>
-            <div class="form-group"><input class="form-control" type="text" name="image" placeholder="Image URL"></div>
-            <div class="form-group"><textarea class="form-control" rows="14" name="deskripsi" placeholder="Deskripsi"></textarea></div>
+            <h2 class="text-center">Daftar</h2>
+            <div class="form-group"><input class="form-control" type="text" name="title" placeholder="Nama Tempat"></div>
+            <div class="form-group"><input class="form-control" type="text" name="img" placeholder="Lokasi"></div>
+            <div class="form-group"><input class="form-control" type="text" name="facilities" placeholder="Image URL"></div>
+            <div class="form-group"><textarea class="form-control" rows="14" name="desc" placeholder="Deskripsi"></textarea></div>
             <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
         </form>
+        {{!-- title:String,
+    img:{
+        type:String
+    },
+    desc:String,
+    facilities:String --}}
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
